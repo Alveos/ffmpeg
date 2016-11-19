@@ -1,0 +1,17 @@
+{
+    "name": "jmoati/ffmpeg",
+    "description": "A ffmpeg wrapper",
+    "require": {
+        "symfony/process": "*",
+        "symfony/filesystem": "*"
+    },
+    "authors": [
+        {
+            "name": "Jacques Moati",
+            "email": "jacques@moati.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Jmoati\\": "src/Jmoati"}
+    }
+}
